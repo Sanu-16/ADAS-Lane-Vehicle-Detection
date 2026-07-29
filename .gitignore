@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large AI Model Weights (>100MB, excluded for GitHub 100MB limit)
+*.weights
+*.onnx
+
+# Video & Image Test Files
+*.mp4
+*.avi
+screenshots/
+
+# Environment & Temp Files
+.venv/
+env/
+venv/
+*.p
+.DS_Store
